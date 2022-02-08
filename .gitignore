@@ -133,5 +133,8 @@ dmypy.json
 .DS_Store
 
 # data
-# src/data
-# src/data_0124
+src/data/ja
+src/data/en
+
+# dictionary for mecab
+mecab-ipadic-neologd

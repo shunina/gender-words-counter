@@ -13,29 +13,29 @@ job_ads_getter has three main features.
 python 3 environment (recommend to use 3.10.0)
 
 ## Installation
-install required python libraries
+install mecab
 ```macOS
 brew install mecab
 brew install mecab-ipadic
 ```
 
+install mecab-ipadic-NEologd 
+```macOS(m1 chip)
+git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
+cd mecab-ipadic-neologd
+./bin/install-mecab-ipadic-neologd -n -a
+```
+
+install python libraries
 ```bash
 pip install requests
 pip install beautifulsoup4
-pip install pymongo==3.10.0
+pip install neologdn
 pip install import-ipynb
 pip install wheel
 pip install mecab-python3
 pip install pandas
 pip install numpy
-```
-install mongo db
-```bash
-brew tap mongodb/brew
-brew install mongodb-community
-brew services start mongodb-community 
-# stop mongodb
-　# brew services stop mongodb-community
 ```
 
 ## Usage
