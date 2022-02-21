@@ -4,7 +4,17 @@ Job_ads_getter is created by Shun Inagaki, who is a Computer Science master stud
 ## Feature
 job_ads_getter has three main features.
 
-・scrapes job advertisements data from rikunabi.next and find a job
+・find_a_job
+- web scraper to get job advertisement data from Find A Job (https://findajob.dwp.gov.uk/)
+・rikunabi
+- web scraper to get job advertisement data from rikunabi (https://next.rikunabi.com/)
+・wikijob
+- get job advertisement data of wikijob by Feed url and parse them to convert to the data 
+
+・english_advertisement_cleaner
+- clean the sentences in English job advertisements before the calculation process of gender scores
+・japanese_advertisement_cleaner
+- clean the sentences in Japanese job advertisements before the calculation process of gender scores
 
 ・get WikiJob's job advertisements data from xml feed 
 
@@ -43,4 +53,3 @@ pip install numpy
 ```python
 
 ```
-## License
