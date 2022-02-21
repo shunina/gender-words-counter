@@ -1,9 +1,7 @@
-# job_ads_getter
-Job_ads_getter is created by Shun Inagaki, who is a Computer Science master student at University of York. This repository is completely private and only used for the research.
+# gender_words_counter
+gender_words_counter is created by Shun Inagaki, who is a Computer Science master student at University of York. This repository is completely private and only used for the research.
 
 ## Feature
-job_ads_getter has three main features.
-
 ・find_a_job
 - web scraper to get job advertisement data from Find A Job (https://findajob.dwp.gov.uk/)
 ・rikunabi
