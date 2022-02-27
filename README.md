@@ -1,5 +1,5 @@
 # gender_words_counter
-gender_words_counter is created by Shun Inagaki, who is a Computer Science master student at University of York. This repository is completely private and only used for the research.
+gender_words_counter is created by Shun Inagaki, who is a student at Master of Computer Science at University of York. This repository is completely private and only used for the research.
 
 ## Feature
 ・find_a_job
@@ -8,17 +8,13 @@ gender_words_counter is created by Shun Inagaki, who is a Computer Science maste
 - web scraper to get job advertisement data from rikunabi (https://next.rikunabi.com/)
 ・wikijob
 - get job advertisement data of wikijob by Feed url and parse them to convert to the data 
-
 ・english_advertisement_cleaner
 - clean the sentences in English job advertisements before the calculation process of gender scores
 ・japanese_advertisement_cleaner
 - clean the sentences in Japanese job advertisements before the calculation process of gender scores
 
-・get WikiJob's job advertisements data from xml feed 
-
 ## Environment
-
-python 3 environment (recommend to use 3.10.0)
+python 3 environment (recommend to use 3.10.0 jupyter notebook)
 
 ## Installation
 install mecab
@@ -44,10 +40,4 @@ pip install wheel
 pip install mecab-python3
 pip install pandas
 pip install numpy
-```
-
-## Usage
-
-```python
-
 ```
