@@ -2,6 +2,7 @@
 gender_words_counter is created by Shun Inagaki, who is a student at Master of Computer Science at University of York. This is completely private software and only used for the research.
 
 ## Feature
+```
 ・find_a_job
 - web scraper to get job advertisement data from Find A Job (https://findajob.dwp.gov.uk/)
 ・rikunabi
@@ -16,8 +17,9 @@ gender_words_counter is created by Shun Inagaki, who is a student at Master of C
 - count the gendered words in Japanese job advertisements
 ・english_gender_word_counter
 - count the gendered words in English job advertisements
-
+```
 ## Directories
+```
 ─ src
 ├ data
   ├gender_words_lists
@@ -57,7 +59,7 @@ gender_words_counter is created by Shun Inagaki, who is a student at Master of C
   ├japanese_job_advertisements_cleaner.ipynb
   ├rikunabi.ipynb
   └wikijob.ipynb
-※Data are not included in this directory. They are included in rawdata.zip in the artefact directory.
+```
 
 ## Environment
 python 3 environment (recommend to use Python 3.10.0 and jupyter notebook)
